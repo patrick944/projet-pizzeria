@@ -1,0 +1,289 @@
+/* General */
+body{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+hr{
+    width: 70%;
+}
+/* Header part */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.menu-nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    font-weight: 600;
+    font-size: 19px;
+}
+header img{
+    width: 15%;
+}
+nav{
+    width: 50%;
+}
+
+a:hover{
+    color: #fa4a0c;
+}
+
+/* Welcome img part */
+.img-container{
+    display: inline-block;
+    position: relative;
+    padding-bottom: 40px;
+    width: 100%;
+}
+.img-container img{
+    object-fit: cover;
+    width: 100%;
+}
+.text-img{
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    color: white;
+    width: 70%;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+
+/* Cards Part(Pizza-Burger-Salade)*/
+
+.al{
+    text-align: center;
+    font-size: 44px;
+}
+.Container-all-card{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    width: 95%;
+}
+
+.container-card{
+    border: 3px solid #fa4a0c;
+    margin-left: 15px;
+    
+}
+.container-img img{
+    margin: 70px ;
+}
+
+.text-description p{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.1px;
+    padding-left: 30px;
+}
+
+.button{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 16px 0;
+    padding-right: 30px;
+}
+
+button{
+    border-radius: 30px;
+    box-shadow: 0px 10px 30px;
+    width: 177px;
+    height: 68px;
+    font-size: 24px;
+    background-color: #fa4a0c;
+    color: #fff;
+}
+
+/* Footer */
+.img-container{
+    display: inline-block;
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.footer-text h2{
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 30%;
+    color: white;
+    width: 70%;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.footer-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Logo-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+/* Formulaire de commande */
+fieldset{
+    border: 0;
+}
+
+.forms-infos{
+    padding: 0 60px;
+    padding-bottom: 40px;
+    padding-left: 70px;
+}
+
+ .form-cat{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    padding-bottom: 15px;
+} 
+
+#form-contain{
+    display: flex;
+    flex-direction: column;
+    padding: 0 70px;
+}
+
+.part1-command{
+    display: flex;
+    justify-content: space-around;
+}
+
+.list-derou{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    height: 40px;
+    width: 320px;
+    border-radius: 4px;
+    color: gray;
+}
+
+select{
+    width: 320px;
+    height: 40px;
+    border-radius: 4px;
+}
+.livraison{
+    display: flex;
+    justify-content: space-around;
+}
+.form-cat-jj{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.title-form{
+    padding: 0 70px;
+    font-size: 40px;
+}
+.drink-dessert{
+justify-content: space-around;
+    display: flex;
+
+}
+.boisson{
+    display: flex;
+    flex-direction: column;
+}
+.dessert{
+    display: flex;
+    flex-direction:column;
+}
+.section-commande{
+    display: flex;
+    justify-content: space-between;
+}
+.title-fromage{
+    margin-right: 57px;
+    margin-top: 43px;
+    color: #fa4a0c;
+}
+
+/*-----------------contactez-nous-----------*/
+.contacter{
+    display: flex;
+    justify-content: space-around;
+}
+.form-cat-p{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+.upload{
+    display: flex;
+    padding-left:250px;
+}
+.file{
+     padding-top: 10px;
+     padding-left: 15px;
+}
+.orange{
+    border: 2px solid black;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    color: white;
+    background-color: #fa4a0c;
+    padding-top:10px;
+    margin-top: 10px;
+}
+.objectif{
+    padding-left: 250px;
+    padding-top: 40px;
+}
+ textarea[name="message"]{
+    width: 70%;
+    padding: 20px;
+    height: 250px;
+    resize: none;
+    margin-bottom: 20px;
+    margin-left: 250px;
+    margin-top: 20px;
+
+}
+iframe{
+    width: 73%;
+    margin-left: 250px;
+}
+select[ name="objet"]{
+    width: 87%;
+}
+
+@media screen and (max-width:680px){
+    
+}
+
+@media screen and(min-width:681px) and (max-width:1278px){
+
+}
+
+

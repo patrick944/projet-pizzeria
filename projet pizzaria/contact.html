@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <title>contact.html</title>
+</head>
+<body>
+    <header>
+        <img src="Images/left.png" alt="Logo de l'entreprise">
+        <nav class="menu-nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Pizza</a></li>
+                <li><a href="#">Burgers</a></li>
+                <li><a href="#">Salade</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="img-container">
+        <img src="Images/main-image.png" alt="Image de plats">
+        <div class="text-img">
+            <h3>Food app</h3>
+            <h2>Chez Bella</h2>
+            <h2>chaque désir s'aditionne</h2>
+        </div>
+    </div>
+    <section>
+        <div>
+            <h2 class="title-form">Nous Contacter</h2>
+        </div>
+            <form action="#" method="post">
+                <fieldset class="contacter">
+                    <div id="form-contain">
+                        <div class="form-cat-p">
+                            <div>
+                                <label for="nom">Nom</label>
+                                <div>
+                                    <input type="text" name="nom" id="nom" placeholder="nom" autofocus required>
+                                </div>
+                            </div>
+                            <div>
+                                <label for="tel">Téléphone</label>
+                                <div>
+                                    <input type="number" name="Tel" id="tel" placeholder="Téléphone" autofocus required>
+                                </div>
+                            </div>
+                            <div>
+                                <label for="société">Société</label>
+                                <div>
+                                    <input type="text" name="société" id="société" placeholder="Société" autofocus required>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-cat-p">
+                        <div>
+                            <label for="surname">Prénom</label>
+                            <div>
+                                <input type="text" name="surname" id="surname" placeholder="prénom" autofocus required>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="mail">Email</label>
+                            <div>
+                                <input type="email" name="mail" id="mail" placeholder="email" autofocus required>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="fonct">Fonction</label>
+                            <div>
+                                <input type="text" name="fonction" id="fonction" placeholder="fonction" autofocus required>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="upload">
+                    <bouton class="orange">UPLOAD</bouton>
+                    <P class="file">choose your file</P>
+                </div>
+                <div>
+                    <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+                </div>
+                <div class="objectif">
+                       <div>
+                            <label for="objet">objet</label>
+                        </div>
+                        <select name="objet" id="objet">
+                            <option value=""></option>
+                            <option value=""></option>
+                            <option value=""></option>
+                        </select>
+                    
+                </div>
+                <div>
+                    <label for="message"></label>
+                    <div><textarea name="message" id="message"  placeholder="message" cols="40" rows="20"></textarea></div>
+                </div>
+                  <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20997.67726093443!2d2.4315457188439864!3d48.863746674416895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66d45530eef85%3A0xa3aa7c6db0c45bf0!2s93100%20Montreuil!5e0!3m2!1sfr!2sfr!4v1674746485606!5m2!1sfr!2sfr" width="600" height="450"
+                 style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"</div>
+                <div class="button">
+                    <button>Envoyer</button>
+                </div>
+            </form>
+    </section>
+    
+</body>
+</html>
